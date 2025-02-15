@@ -1,0 +1,314 @@
+Network Protocols and Their Layers
+
+Internet and Web Protocols
+HTTP/HTTPS (Web browsing)
+OSI Model: Application Layer (Layer 7)
+TCP/IP Model: Application Layer
+Communication: HTTP/HTTPS is used for transferring web pages on the internet. HTTPS adds a layer of security using SSL/TLS.
+
+FTP/SFTP/FTPS (File transfer)
+OSI Model: Application Layer (Layer 7)
+TCP/IP Model: Application Layer
+Communication: FTP is used for transferring files between systems. SFTP and FTPS add security features.
+
+DHCP (Dynamic Host Configuration)
+OSI Model: Application Layer (Layer 7)
+TCP/IP Model: Application Layer
+Communication: DHCP dynamically assigns IP addresses to devices on a network.
+
+DNS (Domain Name System)
+OSI Model: Application Layer (Layer 7)
+TCP/IP Model: Application Layer
+Communication: DNS translates domain names to IP addresses.
+
+MQTT (IoT messaging)
+OSI Model: Application Layer (Layer 7)
+TCP/IP Model: Application Layer
+Communication: MQTT is a lightweight messaging protocol for small sensors and mobile devices.
+
+WebSocket (Full-duplex communication)
+OSI Model: Application Layer (Layer 7)
+TCP/IP Model: Application Layer
+Communication: WebSocket provides full-duplex communication channels over a single TCP connection.
+
+Email and Messaging Protocols
+SMTP (Sending email)
+OSI Model: Application Layer (Layer 7)
+TCP/IP Model: Application Layer
+Communication: SMTP is used for sending emails.
+
+POP3 (Receiving email)
+OSI Model: Application Layer (Layer 7)
+TCP/IP Model: Application Layer
+Communication: POP3 is used for retrieving emails from a server.
+
+IMAP (Email access)
+OSI Model: Application Layer (Layer 7)
+TCP/IP Model: Application Layer
+Communication: IMAP allows access to email on a remote server.
+
+XMPP (Instant messaging)
+OSI Model: Application Layer (Layer 7)
+TCP/IP Model: Application Layer
+Communication: XMPP is used for instant messaging and presence information.
+
+IRC (Internet relay chat)
+OSI Model: Application Layer (Layer 7)
+TCP/IP Model: Application Layer
+Communication: IRC is used for real-time text messaging.
+
+Security Protocols
+SSL/TLS (Secure communications)
+OSI Model: Presentation Layer (Layer 6)
+TCP/IP Model: Application Layer
+Communication: SSL/TLS provides secure communication over a computer network.
+
+SSH (Secure shell)
+OSI Model: Application Layer (Layer 7)
+TCP/IP Model: Application Layer
+Communication: SSH provides a secure channel over an unsecured network.
+
+IPSec (Network security)
+OSI Model: Network Layer (Layer 3)
+TCP/IP Model: Internet Layer
+Communication: IPSec secures IP communications by authenticating and encrypting each IP packet.
+
+Kerberos (Authentication)
+OSI Model: Application Layer (Layer 7)
+TCP/IP Model: Application Layer
+Communication: Kerberos is a network authentication protocol.
+
+RADIUS (Remote authentication)
+OSI Model: Application Layer (Layer 7)
+TCP/IP Model: Application Layer
+Communication: RADIUS provides centralized Authentication, Authorization, and Accounting (AAA).
+
+TACACS+ (Access control)
+OSI Model: Application Layer (Layer 7)
+TCP/IP Model: Application Layer
+Communication: TACACS+ provides access control for routers, network access servers, and other networked computing devices.
+
+Network Management Protocols
+SNMP (Network management)
+OSI Model: Application Layer (Layer 7)
+TCP/IP Model: Application Layer
+Communication: SNMP is used for network management and monitoring.
+
+ICMP (Error reporting and testing)
+OSI Model: Network Layer (Layer 3)
+TCP/IP Model: Internet Layer
+Communication: ICMP is used for error messages and operational information queries.
+
+NTP (Time synchronization)
+OSI Model: Application Layer (Layer 7)
+TCP/IP Model: Application Layer
+Communication: NTP synchronizes clocks of networked devices.
+
+RMON (Remote monitoring)
+OSI Model: Application Layer (Layer 7)
+TCP/IP Model: Application Layer
+Communication: RMON provides network monitoring and protocol analysis.
+
+NetFlow (Network monitoring)
+OSI Model: Application Layer (Layer 7)
+TCP/IP Model: Application Layer
+Communication: NetFlow collects IP traffic information for network monitoring.
+
+Routing Protocols
+BGP (Border Gateway Protocol)
+OSI Model: Network Layer (Layer 3)
+TCP/IP Model: Internet Layer
+Communication: BGP manages how packets are routed across the internet through the exchange of routing information.
+
+OSPF (Open Shortest Path First)
+OSI Model: Network Layer (Layer 3)
+TCP/IP Model: Internet Layer
+Communication: OSPF is used for routing within an autonomous system.
+
+RIP (Routing Information Protocol)
+OSI Model: Network Layer (Layer 3)
+TCP/IP Model: Internet Layer
+Communication: RIP is used for routing within small to medium-sized networks.
+
+EIGRP (Enhanced Interior Gateway Routing Protocol)
+OSI Model: Network Layer (Layer 3)
+TCP/IP Model: Internet Layer
+Communication: EIGRP is used for routing within an autonomous system.
+
+IS-IS (Intermediate System to Intermediate System)
+OSI Model: Network Layer (Layer 3)
+TCP/IP Model: Internet Layer
+Communication: IS-IS is used for routing within an autonomous system.
+
+Transport Protocols
+TCP (Transmission Control Protocol)
+OSI Model: Transport Layer (Layer 4)
+TCP/IP Model: Transport Layer
+Communication: TCP provides reliable, ordered, and error-checked delivery of data.
+
+UDP (User Datagram Protocol)
+OSI Model: Transport Layer (Layer 4)
+TCP/IP Model: Transport Layer
+Communication: UDP provides a connectionless datagram service that emphasizes reduced latency over reliability.
+
+SCTP (Stream Control Transmission Protocol)
+OSI Model: Transport Layer (Layer 4)
+TCP/IP Model: Transport Layer
+Communication: SCTP provides reliable, message-oriented communication with congestion control.
+
+QUIC (Quick UDP Internet Connections)
+OSI Model: Transport Layer (Layer 4)
+TCP/IP Model: Transport Layer
+Communication: QUIC is a transport layer network protocol designed to provide security protection equivalent to TLS/SSL, along with reduced connection and transport latency.
+
+Media Streaming Protocols
+RTSP (Real-Time Streaming Protocol)
+OSI Model: Application Layer (Layer 7)
+TCP/IP Model: Application Layer
+Communication: RTSP is used for controlling streaming media servers.
+
+RTP (Real-time Transport Protocol)
+OSI Model: Transport Layer (Layer 4)
+TCP/IP Model: Transport Layer
+Communication: RTP is used for delivering audio and video over IP networks.
+
+RTMP (Real-Time Messaging Protocol)
+OSI Model: Application Layer (Layer 7)
+TCP/IP Model: Application Layer
+Communication: RTMP is used for streaming audio, video, and data over the internet.
+
+HLS (HTTP Live Streaming)
+OSI Model: Application Layer (Layer 7)
+TCP/IP Model: Application Layer
+Communication: HLS is a media streaming protocol for delivering content over the internet.
+
+DASH (Dynamic Adaptive Streaming over HTTP)
+OSI Model: Application Layer (Layer 7)
+TCP/IP Model: Application Layer
+Communication: DASH is used for streaming media over the internet.
+
+File Sharing and Storage Protocols
+SMB/CIFS (Network file sharing)
+OSI Model: Application Layer (Layer 7)
+TCP/IP Model: Application Layer
+
+Communication: SMB/CIFS is used for sharing files, printers, and serial ports.
+NFS (Network File System)
+OSI Model: Application Layer (Layer 7)
+TCP/IP Model: Application Layer
+Communication: NFS allows a user on a client computer to access files over a network.
+
+AFP (Apple Filing Protocol)
+OSI Model: Application Layer (Layer 7)
+TCP/IP Model: Application Layer
+Communication: AFP is used for file services in macOS.
+
+iSCSI (Internet Small Computer Systems Interface)
+OSI Model: Transport Layer (Layer 4)
+TCP/IP Model: Transport Layer
+Communication: iSCSI is used for linking data storage facilities.
+
+WebDAV (Web Distributed Authoring and Versioning)
+OSI Model: Application Layer (Layer 7)
+TCP/IP Model: Application Layer
+Communication: WebDAV is used for web-based file management.
+
+Directory Services Protocols
+LDAP (Lightweight Directory Access Protocol)
+OSI Model: Application Layer (Layer 7)
+TCP/IP Model: Application Layer
+Communication: LDAP is used for accessing and maintaining distributed directory information services.
+
+Active Directory
+OSI Model: Application Layer (Layer 7)
+TCP/IP Model: Application Layer
+Communication: Active Directory is a directory service for Windows domain networks.
+
+NIS (Network Information Service)
+OSI Model: Application Layer (Layer 7)
+TCP/IP Model: Application Layer
+Communication: NIS is used for managing user and host names in a network.
+
+Remote Access Protocols
+RDP (Remote Desktop Protocol)
+OSI Model: Application Layer (Layer 7)
+TCP/IP Model: Application Layer
+Communication: RDP provides remote access to another computer.
+
+VNC (Virtual Network Computing)
+OSI Model: Application Layer (Layer 7)
+TCP/IP Model: Application Layer
+Communication: VNC allows remote control of another computer.
+
+Telnet (Terminal emulation)
+OSI Model: Application Layer (Layer 7)
+TCP/IP Model: Application Layer
+Communication: Telnet provides bidirectional interactive text-oriented communication.
+
+X11 (X Window System)
+OSI Model: Application Layer (Layer 7)
+TCP/IP Model: Application Layer
+Communication: X11 provides a graphical user interface for networked computers.
+
+Network Access and Authentication
+PPP (Point-to-Point Protocol)
+OSI Model: Data Link Layer (Layer 2)
+TCP/IP Model: Link Layer
+Communication: PPP is used for establishing a direct connection between two network nodes.
+
+PAP (Password Authentication Protocol)
+OSI Model: Data Link Layer (Layer 2)
+TCP/IP Model: Link Layer
+Communication: PAP is used for authenticating a user to a network access server.
+
+CHAP (Challenge Handshake Authentication Protocol)
+OSI Model: Data Link Layer (Layer 2)
+TCP/IP Model: Link Layer
+Communication: CHAP is used for periodically verifying the identity of a peer using a three-way handshake.
+
+EAP (Extensible Authentication Protocol)
+OSI Model: Data Link Layer (Layer 2)
+TCP/IP Model: Link Layer
+Communication: EAP is used for network access authentication.
+
+VoIP and Communication Protocols
+SIP (Session Initiation Protocol)
+OSI Model: Application Layer (Layer 7)
+TCP/IP Model: Application Layer
+Communication: SIP is used for initiating, maintaining, and terminating real-time sessions.
+
+H.323 (Multimedia communications)
+OSI Model: Application Layer (Layer 7)
+TCP/IP Model: Application Layer
+Communication: H.323 is used for audio, video, and data communication.
+
+RTP (Real-time Transport Protocol)
+OSI Model: Transport Layer (Layer 4)
+TCP/IP Model: Transport Layer
+Communication: RTP is used for delivering audio and video over IP networks.
+
+IAX (Inter-Asterisk eXchange)
+OSI Model: Application Layer (Layer 7)
+TCP/IP Model: Application Layer
+Communication: IAX is used for VoIP signaling and media exchange.
+
+Link Layer Protocols
+ARP (Address Resolution Protocol)
+OSI Model: Data Link Layer (Layer 2)
+TCP/IP Model: Link Layer
+Communication: ARP is used for mapping IP network addresses to the hardware addresses used by a data link protocol.
+
+PPP (Point-to-Point Protocol)
+OSI Model: Data Link Layer (Layer 2)
+TCP/IP Model: Link Layer
+Communication: PPP is used for establishing a direct connection between two network nodes.
+
+HDLC (High-Level Data Link Control)
+OSI Model: Data Link Layer (Layer 2)
+TCP/IP Model: Link Layer
+Communication: HDLC is a bit-oriented code-transparent synchronous data link layer protocol.
+
+ATM (Asynchronous Transfer Mode)
+OSI Model: Data Link Layer (Layer 2)
+TCP/IP Model: Link Layer
+Communication: ATM is a network technology that supports the transfer of data in cells or packets of a fixed size.
